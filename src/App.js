@@ -81,7 +81,8 @@ const SectionSub = ({ children, center, white }) => (
   }}>{children}</p>
 );
 
-// Icons as inline SVG components
+// Icons as inline SVG components (available for future use)
+// eslint-disable-next-line no-unused-vars
 const Icon = ({ name, size = 28, color = C.teal }) => {
   const icons = {
     home: <><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></>,
